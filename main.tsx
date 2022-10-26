@@ -3,15 +3,21 @@
 import blog, { ga, redirects, h } from "blog";
 
 blog({
-  title: "My Blog",
-  description: "This is my new blog.",
+  title: "dwj1210",
+  description: "iOS | Android | Mobile Security",
   // header: <header>Your custom header</header>,
   // section: <section>Your custom section</section>,
   // footer: <footer>Your custom footer</footer>,
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  avatar: "https://avatars.githubusercontent.com/u/24934234?v=4",
   avatarClass: "rounded-full",
   author: "dwj1210",
-
+  links: [
+    {title:"GitHub", url: "https://www.github.com/dwj1210"},
+    {title:"Twitter", url: "https://twitter.com/dwj1210"},
+  ],
+  theme: "dark",
+  cover: "",
+  showHeaderOnPostPage: true,
   // middlewares: [
 
     // If you want to set up Google Analytics, paste your GA key here.
