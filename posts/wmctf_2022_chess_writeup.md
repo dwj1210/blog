@@ -1,6 +1,6 @@
 ---
 title: WMCTF 2022 挑战赛 chess writeup
-publish_date: 2022-10-26
+publish_date: 2022-02-22
 ---
 
 ### 写在前面
@@ -103,7 +103,7 @@ url.toString()
 
 IDAPython Ptach `svc 0x80`:
 
-```python
+``` python
 import idc
 def text_seg_addr_start():
     for seg in Segments():
