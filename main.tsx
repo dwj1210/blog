@@ -15,9 +15,10 @@ blog({
     {title:"GitHub", url: "https://www.github.com/dwj1210"},
     {title:"Twitter", url: "https://twitter.com/dwj1210"},
   ],
-  theme: "dark",
-  cover: "",
+  theme: "auto",
+  // cover: "assets/images/cover_image.jpeg",
   showHeaderOnPostPage: true,
+  // coverTextColor:"white",
   // middlewares: [
 
     // If you want to set up Google Analytics, paste your GA key here.
