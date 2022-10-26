@@ -1,6 +1,6 @@
 ---
 title: WMCTF 2022 挑战赛 chess writeup
-publish_date: 2022-02-22
+publish_date: 2022-08-22
 ---
 
 ### 写在前面
