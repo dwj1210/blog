@@ -103,7 +103,7 @@ url.toString()
 
 IDAPython Ptach `svc 0x80`:
 
-``` python
+``` Python
 import idc
 def text_seg_addr_start():
     for seg in Segments():
